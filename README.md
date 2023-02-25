@@ -222,39 +222,7 @@
         </body>
  </html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            </center>
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 
 <body>
@@ -320,3 +288,245 @@
  </html>
  #Applicant Register Page
  
+<!DOCTYPE html>
+<html lang="en-US">
+    <body>
+        <div id="google_translate_element"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit(){
+                new google.translate.TranslateElement({
+                    pageLaunguage: 'en',
+                    layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+                },'google_translate_element');
+                }
+        </script>
+                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            </body>
+
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>Applicant Register page</title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color:white;
+  
+}  
+button {   
+       background-color:blue;    
+       width: 100%;
+       height:45px;    
+       color: white;   
+       padding: 15px;   
+       margin: 20px 0px;   
+       border: none;   
+       cursor: pointer;   
+       }   
+center {   
+        background-color:white; 
+       }   
+ input[type=text], input[type=password] {   
+        width:40%; 
+        height:45px;  
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        background: #f1f1f1;
+        box-sizing: border-box;  
+        border: none;
+    }  
+ button:hover {   
+        opacity: 0.5;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+  .container {   
+        height:650px;
+        padding: 25px;   
+        
+        
+    }   
+    #add{
+        width:91%;
+        height: 60px;
+    }
+    #usr{
+        width:91%;
+    }
+</style>   
+</head>    
+<Center><h1 style="font-size:50px;"> <b>APPLICANT&nbsp; REGISTER&nbsp; FORM </b></h1></Center> 
+<form>  
+    <div class="container" class="clearfix">   
+        <lable><b>First Name:</b></lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" placeholder="Enter your First Name" name="First_Name" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <lable><b>Last Name:</b></lable>
+        <input type="text" placeholder="Enter your Last Name" name="Last_Name" required><br><br>
+        <lable><b>Qualification:</b></lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" placeholder="Enter your Qualification" name="Qualification" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <lable><b>E-mail Id:</b></lable>
+        <input type="text" placeholder="Enter your E-mail Id" name="Email_Id" required><br><br>
+        <lable><b>Gender :</b></lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" value="Male" name="gender" checked ><b> Male </b>
+            <input type="radio" value="Female" name="gender"><b> Female </b>
+            <input type="radio" value="Other" name="gender"> <b>Other</b> <br><br> 
+        <lable><b>Date of Birth:</b></lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="date" placeholder="Enter your DOB" name="Date_of_birth" required><BR><br>
+        <lable><b>Phone No:</b></lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="country code" placeholder="Country Code" maxlength="12"   value="+91" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <lable><b>Alternate Phone No:</b></lable>
+        <input type="text" name="phone" placeholder="Phone no." size="10" maxlength="12" value="+91" required><br><br>
+        <lable><b>Current Address :</b></lable>&nbsp;&nbsp;
+        <input type="text" textarea cols="80" rows="5" placeholder="Current Address" id="add" name="current_address" required><br><br>
+        <lable><b>Prefered Job:</b></lable> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" placeholder="Enter your Prefered Job" name="Prefered_Job" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <lable><b>Skills (if any):</b></lable>
+        <input type="text" placeholder="Enter your Skills" name="Skills" required><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" value="Full time" name="gender" checked ><b>Full Time</b>
+        <input type="radio" value="Part time" name="gender"> <b>Part Time </b>
+        <center><h2>Please fill in this form to create an account</h2></center>
+            <lable for="Username"><b>Create Username:</b></lable>&nbsp;
+            <input type="text" placeholder="Create Username" name="Username" id="usr" required><br>
+            <lable for="password"><b>Create Password:</b></lable>
+            <input type="password" placeholder="Create Password" name="password" required>&nbsp;&nbsp;
+            <lable for="psw-repeat"><b>Re-comfirm Password:</b></lable>
+            <input type="password" placeholder="Re-comfirm Password" name="password_repeat" required>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px" size="50px"> Remember me
+            
+            <p>By creating an account you agree to our <a href="#" style="color:darkblue">Terms & Privacy</a></p>
+        <button type="submit"><b>Register</b></button> <br>
+        <button type="button" class="cancelbtn">Cancel</button>
+
+    </div>    
+</form>
+</p>        
+</body>     
+</html> 
+
+#company Register Page
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+    <div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+            }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+    <head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>Company Register page</title>  
+<style>   
+Body
+    {  
+       font-family: Calibri, Helvetica, sans-serif;  
+       background-color:white;  
+    }  
+button 
+   {   
+       background-color: blue;    
+       width: 100%;
+       height:45px;    
+       color: white;   
+       /* padding: 15px;    */
+       margin: 20px 0px;   
+       border: none;   
+       cursor: pointer;   
+    }   
+center 
+    {
+        background-color:white; 
+    }   
+ input[type=text], input[type=password] 
+   {   
+        width:40%; 
+        height:45px;  
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        background: #f1f1f1;
+        box-sizing: border-box;  
+        border: none;
+    }  
+ button:hover 
+    {   
+        opacity: 0.5;   
+    }   
+  .cancelbtn
+   {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+   }   
+ .container
+    {   
+        height:650px;
+        padding: 25px;   
+    }  
+   #add
+    {
+       width:91%;
+       height: 60px; 
+    } 
+    #usr
+    {
+       width:91%;
+    } 
+</style>   
+</head>       
+<body> 
+
+    <Center><h1 style="font-size:50px;"> <b>COMPANY REGISTER FORM </b></h1></Center> 
+    <form>  
+        <div class="container">   
+            <label ><b>Company Name:</b></label>
+            <input type="text" placeholder="Enter your Company Name" name="Company_Name" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label><b>E-mail Id:</b></label>
+            <input type="text" placeholder="Enter your E-mail Id" name="Email_Id" required><br><br>
+            <label><b>Contact No:</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2" maxlength="12" >&nbsp;&nbsp;&nbsp;&nbsp;
+            <label><b>Alternate Contact No:</b></label>
+            <input type="text" name="phone" placeholder="phone no." value="+91" size="2" maxlength="12" required><br><br>
+            <label><b>Current Address :&nbsp;&nbsp;</b></label>
+            <input type="text" textarea cols="80" rows="5" placeholder="Current Address" id="add" name="current_address" required><br><br>
+            <label><b>Vacancies:</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Enter your Available vacancies" name="Vacancies" required>&nbsp;
+            <label ><b>Required Qualification:</b></label>
+            <input type="text" placeholder="Enter Your Required Qualification" name="Required_Qualification" required><br><br>
+            <label ><b>Average Salary:</b></label>&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Enter Your Average Salary" name="Average_Salary" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label ><b>Branch Name:</b></label>
+            <input type="text" placeholder="Enter Your Branch Name" name="Branch_Name" required><br>
+            <center><h2>Please fill in this form to create an account</h2></center>
+                <label for="Username"><b>Create Username:</b></label>&nbsp;
+                <input type="text" placeholder="Create Username" name="Username" id="usr" required><br>
+                <label for="password"><b>Create Password:</b></label>
+                <input type="password" placeholder="Create Password" name="pwd" required>&nbsp;&nbsp;
+                <label for="psw-repeat"><b>Re-comfirm Password:</b></label>
+                <input type="password" placeholder="Re-comfirm Password" name="password_repeat" required>
+                  <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px" size="50px"> Remember me
+                </label>
+            <button type="submit"><b>Register</b></button> <br>
+            <button type="button" class="cancelbtn">Cancel</button>
+        </div>    
+      </form>
+    </p>        
+</body>     
+</html>
+#Php connectivity for both the tables
