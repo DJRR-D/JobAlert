@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+    <div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+            }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+    <head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>Company Register page</title>  
+<style>   
+Body
+    {  
+       font-family: Calibri, Helvetica, sans-serif;  
+       background-color:white;  
+    }  
+button 
+   {   
+       background-color: blue;    
+       width: 100%;
+       height:45px;    
+       color: white;   
+       /* padding: 15px;    */
+       margin: 20px 0px;   
+       border: none;   
+       cursor: pointer;   
+    }   
+center 
+    {
+        background-color:white; 
+    }   
+ input[type=text], input[type=password] 
+   {   
+        width:40%; 
+        height:45px;  
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        background: #f1f1f1;
+        box-sizing: border-box;  
+        border: none;
+    }  
+ button:hover 
+    {   
+        opacity: 0.5;   
+    }   
+  .cancelbtn
+   {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+   }   
+ .container
+    {   
+        height:650px;
+        padding: 25px;   
+    }  
+   #add
+    {
+       width:91%;
+       height: 60px; 
+    } 
+    #usr
+    {
+       width:91%;
+    } 
+</style>   
+</head>       
+<body> 
+
+    <Center><h1 style="font-size:50px;"> <b>COMPANY REGISTER FORM </b></h1></Center> 
+    <form>  
+        <div class="container">   
+            <label ><b>Company Name:</b></label>
+            <input type="text" placeholder="Enter your Company Name" name="Company_Name" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label><b>E-mail Id:</b></label>
+            <input type="text" placeholder="Enter your E-mail Id" name="Email_Id" required><br><br>
+            <label><b>Contact No:</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2" maxlength="12" >&nbsp;&nbsp;&nbsp;&nbsp;
+            <label><b>Alternate Contact No:</b></label>
+            <input type="text" name="phone" placeholder="phone no." value="+91" size="2" maxlength="12" required><br><br>
+            <label><b>Current Address :&nbsp;&nbsp;</b></label>
+            <input type="text" textarea cols="80" rows="5" placeholder="Current Address" id="add" name="current_address" required><br><br>
+            <label><b>Vacancies:</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Enter your Available vacancies" name="Vacancies" required>&nbsp;
+            <label ><b>Required Qualification:</b></label>
+            <input type="text" placeholder="Enter Your Required Qualification" name="Required_Qualification" required><br><br>
+            <label ><b>Average Salary:</b></label>&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Enter Your Average Salary" name="Average_Salary" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label ><b>Branch Name:</b></label>
+            <input type="text" placeholder="Enter Your Branch Name" name="Branch_Name" required><br>
+            <center><h2>Please fill in this form to create an account</h2></center>
+                <label for="Username"><b>Create Username:</b></label>&nbsp;
+                <input type="text" placeholder="Create Username" name="Username" id="usr" required><br>
+                <label for="password"><b>Create Password:</b></label>
+                <input type="password" placeholder="Create Password" name="pwd" required>&nbsp;&nbsp;
+                <label for="psw-repeat"><b>Re-comfirm Password:</b></label>
+                <input type="password" placeholder="Re-comfirm Password" name="password_repeat" required>
+                  <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px" size="50px"> Remember me
+                </label>
+            <button type="submit"><b>Register</b></button> <br>
+            <button type="button" class="cancelbtn">Cancel</button>
+        </div>    
+      </form>
+    </p>        
+</body>     
+</html>
